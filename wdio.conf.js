@@ -15,8 +15,8 @@ export const config = {
     capabilities: [{
         platformName: 'Android',
         'appium:app': 'storage:filename=ebacshop.aab', // The filename of the mobile app
-        'appium:deviceName': 'Android GoogleAPI Emulator',
-        'appium:platformVersion': '12.0',
+        'appium:deviceName': 'Samsung.*',
+        'appium:platformVersion': '10',
         'appium:automationName': 'UiAutomator2',
         'appium:disableIdLocatorAutocompletion': true,
         'sauce:options': {
